@@ -1,0 +1,2 @@
+const IntroData = "I'm Namrata – a recent Computer Science graduate passionate about the intersection of storytelling and technology. Innovation in the digital storytelling realm — be it using code, video, long-form prose, or mixed-media — is what I'm excited about. I use data and software to tell stories aimed at exploring novel perspectives and mitigating biases. Most recently, I've explored how storytellers can use choose-your-own-adventure-games as tools to build narratives that create positive social impact."
+export default IntroData

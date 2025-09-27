@@ -1,4 +1,4 @@
-const IntroData = `I'm Namrata. I'm a Data scientist turned Product Manager.
+const IntroData = `I'm a Data scientist turned Product Manager.
 
 I made this website when I was still a recent Computer Science graduate, passionate about the intersection of storytelling and technology. In particular, innovation in the digital storytelling realm — be it using code, long-form prose, or mixed-media — is what I was most excited about.
 

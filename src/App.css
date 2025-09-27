@@ -1,30 +1,33 @@
+/* Updated responsive layout */
 .App {
   background-color: white;
-  display: grid;
-  grid-template-columns: repeat(5,2fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-row-gap: 1em;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 15vh 5vw 10vh 5vw;
+  gap: 2em;
 }
 
-
+/* Responsive intro section */
 .intro-box {
-  grid-column: 2/5;
-  grid-row: 1;
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
-  align-self: end;
-
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
 }
 
+/* Responsive projects section */
 .project-holder {
   font-family: 'Source Code Pro', monospace;
   font-size: 15px;
-  grid-column: 2/5;
-  grid-row: 2;
-
+  max-width: 800px;
+  width: 100%;
 }
 
+/* Keep all your existing project styles */
 .project-category{
   font-family: 'Source Code Pro', monospace;
 }
@@ -36,13 +39,6 @@
   display: block;
   width: max-content;
 }
-
-/*
-.project:hover {
-  color: #ee0979
-}
-*/
-
 
 .outer {
   display: block;
@@ -57,6 +53,7 @@
   background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
   background: linear-gradient(to right, #ff6a00, #ee0979);
 }
+
 .inner {
   display: block;
   width: max-content;
@@ -69,7 +66,6 @@
   width: 100%;
 }
 
-
 .project::after {
   content: '';
   position: absolute;
@@ -78,60 +74,25 @@
   background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
   background: linear-gradient(to right, #ff6a00, #ee0979);
   transition: all ease 300ms;
-  height: 1px; /* The height of the underline--thickness in this case. */
-  bottom: 0%; /* Sets the position of the underline. */
+  height: 1px;
+  bottom: 0%;
 }
-
 
 .project:hover::after {
   width: 100%;
 }
 
-
-/*
-.project-tooltip{
-  position: relative;
-}
-
-.tooltip-box {
-border: 1px
-}
-
-.tooltip-bubble {
-  min-width: 210px;
-  max-width: 210px;
-  position: absolute;
-  z-index: 10;
-  &::after {
-    content: '';
-    position: relative;
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .App {
+    padding: 10vh 8vw 5vh 8vw;
+  }
+  
+  .intro-box {
+    font-size: 14px;
+  }
+  
+  .project-holder {
+    font-size: 13px;
   }
 }
-
-.tooltip-right {
-  top: 40%;
-  left:35%;
-  padding-left: 9px;
-  transform: translateY(-50%);
-
-  &::after {
-    border-right: 9px solid black;
-    border-top: 9px solid black;
-    border-bottom: 9px solid black;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-  }
-}
-
-.tooltip-message {
-  background: $tooltip-color;
-  border-radius: 3px;
-  color: $tooltip-text-color;
-  font-size: .75rem;
-  line-height: 1.4;
-  padding: .75em;
-  text-align: center;
-}
-
-*/

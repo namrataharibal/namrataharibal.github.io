@@ -58,7 +58,7 @@
   display: block;
   width: max-content;
   background-color: white;
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 
 .outer:hover .project-bg{

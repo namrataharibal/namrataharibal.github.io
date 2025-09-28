@@ -1,0 +1,15 @@
+const IntroData = "I'm Namrata. I'm a Data scientist turned Product Manager.
+
+I made this website when I was still a recent Computer Science graduate, 
+passionate about the intersection of storytelling and technology. 
+In particular, innovation in the digital storytelling realm — be it using code, video, 
+long-form prose, or mixed-media — is what I was most excited about.
+
+Back then I was looking to use data and software to tell stories aimed at 
+exploring novel perspectives and mitigating biases. I also explored how 
+storytellers can use choose-your-own-adventure-games as tools to build 
+narratives that create positive social impact.
+
+Today I am still a data nerd, albeit in a slightly different context. I 
+analyze vast amounts of data to identify real user problems,and figure out 
+how to solve them efficiently, as a PM." export default IntroData

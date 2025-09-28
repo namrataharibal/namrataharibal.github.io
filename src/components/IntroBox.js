@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectTooltip from "./ProjectTooltip"
+// import ProjectTooltip from "./ProjectTooltip"
 
 function IntroBox(props) {
 // Split the intro text into paragraphs 

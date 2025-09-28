@@ -58,7 +58,7 @@
   display: block;
   color: black;
   width: max-content;
-  background-color: white;   
+  background-color: transparent;  /* Changed from white to transparent */
   mix-blend-mode: screen;
 }
 

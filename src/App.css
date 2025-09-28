@@ -58,8 +58,15 @@
   display: block;
   color: black;
   width: max-content;
-  background-color: white;
-  mix-blend-mode: screen;
+  background-color: transparent; /* changing from white to transparent */  
+  /* mix-blend-mode: screen; */
+}
+
+.outer:hover .inner {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .outer:hover .project-bg{

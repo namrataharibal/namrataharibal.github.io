@@ -1,3 +1,4 @@
+
 import React, {Component} from "react"
 // import ProjectTooltip from "./ProjectTooltip"
 
@@ -16,13 +17,12 @@ class Project extends Component {
   render() {
       return(
         <div className="outer">
-          <div className="project-bg">
+	 <div className="project-bg"></div>
             <div className="inner">
               <div className="project" onClick={this.handleClick}>
                 <p>
                   {this.props.project.title}
                 </p>
-              </div>
             </div>
           </div>
         </div>

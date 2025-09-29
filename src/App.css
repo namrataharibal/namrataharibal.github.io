@@ -1,4 +1,4 @@
-/* Updated responsive layout /
+/* Updated responsive layout */
 .App {
   background-color: white;
   display: flex;
@@ -9,7 +9,7 @@
   padding: 0.9vh 5vw 10vh 5vw;
   gap: 2em;
 }
-/ Responsive intro section /
+/* Responsive intro section */
 .intro-box {
   font-family: 'Source Code Pro', monospace;
   font-size: 16px;
@@ -17,14 +17,14 @@
   width: 100%;
   text-align: left;
 }
-/ Responsive projects section /
+/* Responsive projects section */
 .project-holder {
   font-family: 'Source Code Pro', monospace;
   font-size: 15px;
   max-width: 800px;
   width: 100%;
 }
-/ Keep all your existing project styles /
+/* Keep all your existing project styles */
 .project-category{
   font-family: 'Source Code Pro', monospace;
 }
@@ -57,7 +57,7 @@
   display: block;
   color: black;
   width: max-content;
-  background-color: transparent;  / Changed from white to transparent /
+  background-color: white; 
   mix-blend-mode: screen;
 }
 .outer:hover .project-bg{
@@ -83,7 +83,7 @@
 .project:hover::after {
   width: 100%;
 }
-/ Mobile adjustments */
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .App {
     padding: 10vh 8vw 5vh 8vw;
